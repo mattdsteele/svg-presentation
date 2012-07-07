@@ -1,0 +1,32 @@
+Intro
+
+Agenda
+
+What is SVG?
+ - Definition
+ - Example
+
+
+How to include in page
+  - <svg> element
+  - <iframe>
+  - <object>
+  
+Grid
+  
+Basic elements
+  - Rectangle
+  - Circle
+  - Ellipse
+  - Line
+  - Polyline
+  - Polygon
+  - Path
+
+Tools
+  - Inkscape
+  - d3
+
+Can I use
+
+Question?
