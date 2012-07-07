@@ -6,6 +6,11 @@ What is SVG?
  - Definition
  - Example
 
+Advanced demoes
+http://croczilla.com/bits_and_pieces/svg/samples/tiger/tiger.svg
+http://bl.ocks.org/d/1256572/
+http://mbostock.github.com/d3/talk/20111116/gears.html
+http://color.method.ac/
 
 How to include in page
   - <svg> element
@@ -28,5 +33,7 @@ Tools
   - d3
 
 Can I use
+http://caniuse.com/#search=svg
+Polyfill http://code.google.com/p/svgweb/
 
 Question?
