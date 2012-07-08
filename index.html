@@ -31,7 +31,7 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>SVG</h1>
+        <h1>SVG</h1>
 					<script>
 						// Delicously hacky. Look away.
 						if( navigator.userAgent.match( /(iPhone|iPad|iPod|Android)/i ) ) document.write( '<p style="color: rgba(0,0,0,0.3); text-shadow: none;">('+'Tap to navigate'+')</p>' );
@@ -41,16 +41,17 @@
 				<section>
           <h2>Agenda</h2>
           <ul>
-            <li>What is SVG</li>
-            <li>Why it's awesome</li>
-            <li>How to use it</li>
+            <li class="fragment">What is SVG</li>
+            <li class="fragment">Why it's awesome</li>
+            <li class="fragment">How to use it</li>
           </ul>
 				</section>
 				
         <section>
           <section>
             <h2>What is SVG?</h2>
-            <p>Definition</p>
+            <p>Scalable Vector Graphics (SVG) is an XML markup language for describing two-dimensional vector graphics.</p>
+            <p>Basically SVG is to graphics what XHTML is to text.</p>
             </section>
             <section>
             <h2>Examples</h2>
@@ -135,7 +136,7 @@
 
         <svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" style="width: 800; height: 400; margin: 0 auto;" >
          <polygon points="50 160, 55 180, 70 180, 60 190, 65 205, 50 195, 35 205, 40 190, 30 180, 45 180"/>
-         <path d="M 20 230 Q 40 205, 50 230 T 90230"/>
+           <path d="M10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80" stroke="black" fill="transparent"/>
         </svg>
         </section>
         </section>
@@ -143,9 +144,9 @@
         <section>
         <h2>Tools</h2>
         <ul>
-          <li>Inkscape</li>
-          <li>Raphael</li>
-          <li>d3</li>
+          <li><a href="http://inkscape.org/" target="_blank">Inkscape</a></li>
+          <li><a href="http://raphaeljs.com/" target="_blank">Raphael</a></li>
+          <li><a href="http://d3js.org/" target="_blank">d3</a></li>
         </ul>
         </section>
 
@@ -163,16 +164,6 @@
         <h1>Thanks</h1>
         <a href="http://www.cornify.com" onclick="cornify_add();return false;"><img src="http://www.cornify.com/assets/cornify.gif" width="61" height="16" border="0" alt="Cornify" /></a><script type="text/javascript" src="http://www.cornify.com/js/cornify.js"></script>
         </section>
-				<section>
-					<h2>Fragmented Views</h2>
-					<p>Hit the next arrow...</p>
-					<p class="fragment">... to step through ...</p>
-					<ol>
-						<li class="fragment"><code>any type</code></li>
-						<li class="fragment"><em>of view</em></li>
-						<li class="fragment"><strong>fragments</strong></li>
-					</ol>
-				</section>
 			</div>
 
 			<!-- The navigational controls UI -->
