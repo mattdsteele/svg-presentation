@@ -1,7 +1,7 @@
 svg {
   background-color: white;
 }
-svg > * {
+svg.baseColors > * {
   fill: red;
   stroke: red;
 }
