@@ -1,0 +1,7 @@
+svg {
+  background-color: white;
+}
+svg > * {
+  fill: red;
+  stroke: red;
+}
